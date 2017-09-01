@@ -1,8 +1,14 @@
-title : Basic template
+title : FortressJS tutorial
 
 # Table of content
 plan:
   - title: Welcome # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: Getting started
+    statement: markdowns/getting-started.md
+
+projects:
+
+  start:
+    root: code/start
+    runner: cmake-gcc-runner
