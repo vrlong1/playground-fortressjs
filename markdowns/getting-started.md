@@ -10,4 +10,4 @@ We need to install NodeJS to use it. This tutorial uses a Debian system, so you 
 
 `apt-get install nodejs`
 
-@[Install NodeJS and launch ok.js]({"stubs": [], "command": "echo 'TECHIO> terminal'"})
+@[Install NodeJS and launch ok.js]({"stubs": [], "command": "echo 'TECHIO> terminal' && sleep 2m"})
