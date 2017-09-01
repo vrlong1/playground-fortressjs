@@ -1,1 +1,2 @@
-console.log("TECHIO> success true");
+var fs = require("fs");
+fs.writeFile("result.txt", "TECHIO> success true");
