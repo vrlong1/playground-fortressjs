@@ -8,6 +8,10 @@ To Start with FortressJS, we need to use NodeJS. NodeJS will "execute" our Fortr
 
 We need to install NodeJS to use it. This tutorial uses a Debian system, so you can enter this command to install it :
 
-`apt-get install nodejs`
+`apt-get install -y nodejs`
+
+then :
+
+`nodejs ok.js`
 
 @[Install NodeJS and launch ok.js]({"stubs": [], "command": "./gs.sh"})
