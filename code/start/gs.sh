@@ -1,6 +1,6 @@
 #!/bin/sh
 
-apt-get update && apt-get install curl -y
+apt-get update && apt-get install curl apt-utils -y
 
 curl -sL https://deb.nodesource.com/setup_8.x | bash -
 
