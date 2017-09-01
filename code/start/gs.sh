@@ -4,10 +4,12 @@ apt-get update
 
 echo 'TECHIO> terminal'
 
-echo 'TECHIO> redirect-streams --input "Terminal" "out"'
-
 while :
 do
-  cat result.txt
+  if [ ! -f result.txt ]; then
   sleep 1s
+  else
+     cat result.txt
+     break
+  fi
 done
