@@ -11,4 +11,4 @@ projects:
 
   start:
     root: code/start
-    runner: cmake-gcc-runner
+    runner: techio/cmake-gcc-runner
