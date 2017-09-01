@@ -11,4 +11,4 @@ projects:
 
   start:
     root: code/start
-    runner: techio/cmake-gcc-runner
+    runner: debian:latest
