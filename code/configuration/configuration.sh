@@ -12,4 +12,4 @@ cp -r start-engine fortressjs/content/engine/
 
 cp -r start-server fortressjs/content/srv/
 
-cd fortressjs && nodejs wf.js
+cd fortressjs && node run/build.run.js && nodejs wf.js
