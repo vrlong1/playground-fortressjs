@@ -4,6 +4,8 @@ apt-get update
 
 apt-get install -y git nodejs
 
+git config --global http.sslVerify false
+
 echo 'TECHIO> terminal'
 
-sleep 300
+sleep 300s
