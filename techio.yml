@@ -8,6 +8,8 @@ plan:
     statement: markdowns/getting-started.md
   - title: Start with Fortress
     statement: markdowns/fortressjs-start.md
+  - title: Architecture
+    statement: markdowns/arch.md
 
 projects:
 
@@ -17,4 +19,8 @@ projects:
 
   exe-1:
     root: code/exe-1
+    runner: debian:latest
+
+  arch:
+    root: code/arch
     runner: debian:latest
