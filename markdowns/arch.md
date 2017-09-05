@@ -63,7 +63,7 @@ next, copy the server in the server folder
 
 now, start FortressJS :
 
-`cd fortressjs && node wf.js`
+`cd fortressjs && nodejs wf.js`
 
 @[Install and run your first FortressJS server]({"project":"arch", "stubs": [], "command": "./arch.sh"})
 

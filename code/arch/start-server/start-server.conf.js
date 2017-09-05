@@ -9,7 +9,7 @@ var startConf=
     "thread": 1, // int value or os.cpus().length
     "engine":
     {
-      "http-start": {at: "start"},
+      "start-engine": {at: "start"},
     },
     "map": ["start" ] // Order app/engine launching map
 }
