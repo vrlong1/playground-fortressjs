@@ -59,7 +59,7 @@ then, copy the engine in the engine folder
 
 next, copy the server in the server folder
 
-`cp -r start-engine fortressjs/content/server/`
+`cp -r start-server fortressjs/content/srv/`
 
 now, start FortressJS :
 
