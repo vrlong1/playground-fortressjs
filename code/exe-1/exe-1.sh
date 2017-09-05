@@ -13,7 +13,7 @@ do
   if [ ! -f "fortressjs/wf.js" ]; then
   sleep 1s
   else
-     cat "fortressjs/wf.js"
+     echo "Well done !"
      exit 0
   fi
 done
