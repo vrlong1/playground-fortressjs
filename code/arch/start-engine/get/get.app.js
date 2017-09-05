@@ -25,7 +25,7 @@
  * and feel free to contact us.
  *
  */
-
+var wf = WF();
 module.exports = GetHttp;
 
 function GetHttp()
