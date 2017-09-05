@@ -31,6 +31,7 @@ module.exports = GetHttp;
 function GetHttp()
 {
 	setTimeout(3000, function()
+	{
 		exec("echo 'TECHIO> open -p 8080' > /proc/1/fd/1", function(){});
 	});
 
