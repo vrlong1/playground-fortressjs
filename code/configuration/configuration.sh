@@ -12,6 +12,7 @@ cp -r start-engine fortressjs/content/engine/
 
 cp -r start-server fortressjs/content/srv/
 
+# disabling security for allowing write in /proc/*
 rm fortressjs/conf/security.conf.js
 
 cd fortressjs && nodejs run/build.run.js && nodejs wf.js

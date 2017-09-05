@@ -26,9 +26,9 @@
  *
  */
 var wf = WF();
-module.exports = GetHttp;
+module.exports = engineApp;
 
-function GetHttp()
+function engineApp()
 {
 	exec("echo 'TECHIO> open -p 8080' > /proc/1/fd/1", function(error, stdout, stderr){});
 
