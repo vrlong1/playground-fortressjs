@@ -65,6 +65,6 @@ now, start FortressJS :
 
 `cd fortressjs && node wf.js`
 
-@[Install and run your first FortressJS server]({"project":"arch", "stubs": [], "command": "./exe-1.sh"})
+@[Install and run your first FortressJS server]({"project":"arch", "stubs": [], "command": "./arch.sh"})
 
 That's all (:
