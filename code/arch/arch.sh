@@ -10,10 +10,10 @@ echo 'TECHIO> terminal'
 
 while :
 do
-  if [ ! -f "fortressjs/end.txt" ]; then
+  if [ ! -f "/tmp/end.txt" ]; then
   sleep 1s
   else
-     cat "fortressjs/end.txt"
+     cat "/tmp/end.txt"
      sleep 1s
      exit 0
   fi
