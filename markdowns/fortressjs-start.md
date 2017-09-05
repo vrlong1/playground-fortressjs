@@ -13,6 +13,6 @@ then :
 
 `cd fortressjs`
 
-@[Install NodeJS and launch ok.js]({"stubs": [], "command": "./exe-1.sh"})
+@[Install NodeJS and launch ok.js]({"project":"exe-1", "stubs": [], "command": "./exe-1.sh"})
 
 That's all (:

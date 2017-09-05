@@ -12,3 +12,7 @@ projects:
   start:
     root: code/start
     runner: debian:latest
+    
+  exe-1:
+    root: code/exe-1
+    runner: debian:latest

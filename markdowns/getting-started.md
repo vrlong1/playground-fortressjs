@@ -15,6 +15,6 @@ then :
 
 `nodejs ok.js`
 
-@[Install NodeJS and launch ok.js]({"stubs": [], "command": "./gs.sh"})
+@[Install NodeJS and launch ok.js]({"project":"start", "stubs": [], "command": "./gs.sh"})
 
 You got it ? Well done ! Go to the next chapter
