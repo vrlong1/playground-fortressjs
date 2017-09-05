@@ -6,4 +6,4 @@ apt-get install -y git nodejs
 
 echo 'TECHIO> terminal'
 
-sleep 2m
+sleep 300
