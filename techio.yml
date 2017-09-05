@@ -26,3 +26,7 @@ projects:
   arch:
     root: code/arch
     runner: debian:latest
+
+  configuration:
+    root: code/configuration
+    runner: debian:latest
