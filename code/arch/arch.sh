@@ -10,16 +10,6 @@ echo 'TECHIO> terminal'
 
 while :
 do
-  if [ ! -f "fortressjs/open.txt" ]; then
-  sleep 1s
-  else
-     cat "fortressjs/open.txt"
-     break
-  fi
-done
-
-while :
-do
   if [ ! -f "fortressjs/end.txt" ]; then
   sleep 1s
   else
