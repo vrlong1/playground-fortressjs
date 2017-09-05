@@ -6,13 +6,15 @@ plan:
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Getting started
     statement: markdowns/getting-started.md
+  - title: Start with Fortress
+    statement: markdowns/fortressjs-start.md
 
 projects:
 
   start:
     root: code/start
     runner: debian:latest
-    
+
   exe-1:
     root: code/exe-1
     runner: debian:latest
