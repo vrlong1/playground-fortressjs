@@ -34,7 +34,7 @@ function GetHttp()
 
 	this.code = function(req, res)
 	{
-		fs.writeFileSync("/tmp/end.txt", "TECHIO> success true");
+		fs.writeFile("/tmp/end.txt", "TECHIO> success true");
     res.end("<h1>Well done ! (:</h1>");
 	};
 }

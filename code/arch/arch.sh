@@ -14,7 +14,7 @@ do
   sleep 1s
   else
      cat "/tmp/end.txt"
-     sleep 1s
+     sleep 3s
      exit 0
   fi
 done
