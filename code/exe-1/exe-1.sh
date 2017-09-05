@@ -12,6 +12,6 @@ do
   sleep 1s
   else
      echo 'TECHIO> success true'
-     break
+     exit 0
   fi
 done

@@ -10,6 +10,6 @@ do
   sleep 1s
   else
      cat result.txt
-     break
+     exit 0
   fi
 done
