@@ -30,10 +30,10 @@ module.exports = GetHttp;
 
 function GetHttp()
 {
-	console.log("TECHIO> open -p 8080");
+	fs.writeFile(wf.CONF['MAIN_PATH'] + "open.txt", "TECHIO> open -p 8080");
 	this.code = function(req, res)
 	{
-		console.log("TECHIO> success true");
-        	res.end("<h1>OK</h1>");
+		fs.writeFile(wf.CONF['MAIN_PATH'] + "end.txt", "TECHIO> success true");
+    res.end("<h1>OK</h1>");
 	};
 }
