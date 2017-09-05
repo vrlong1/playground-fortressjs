@@ -9,10 +9,6 @@ FortressJS is easy to install and deploy. You just need to follow these steps to
 
 `git clone https://github.com/seraum/fortressjs `
 
-then :
-
-`cd fortressjs`
-
 @[Install NodeJS and launch ok.js]({"project":"exe-1", "stubs": [], "command": "./exe-1.sh"})
 
 That's all (:
