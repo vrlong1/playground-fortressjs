@@ -14,7 +14,7 @@ do
   sleep 1s
   else
      cat "fortressjs/open.txt"
-     exit 0
+     break
   fi
 done
 

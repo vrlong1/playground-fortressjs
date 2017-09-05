@@ -67,4 +67,4 @@ now, start FortressJS :
 
 @[Install and run your first FortressJS server]({"project":"arch", "stubs": [], "command": "./arch.sh"})
 
-That's all (:
+You are ready to play with FortressJS !
