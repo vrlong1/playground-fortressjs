@@ -1,4 +1,4 @@
-title : FortressJS tutorial
+title : Discover FortressJS
 
 # Table of content
 plan:
@@ -6,7 +6,7 @@ plan:
     statement: markdowns/welcome.md # Set the file path to the page content
   - title: Getting started
     statement: markdowns/getting-started.md
-  - title: Start with Fortress
+  - title: Start with FortressJS
     statement: markdowns/fortressjs-start.md
   - title: Architecture of FortressJS
     statement: markdowns/arch.md
@@ -19,8 +19,8 @@ projects:
     root: code/start
     runner: debian:latest
 
-  exe-1:
-    root: code/exe-1
+  fjs:
+    root: code/fjs
     runner: debian:latest
 
   arch:

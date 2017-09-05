@@ -6,15 +6,10 @@ apt-get install -y git nodejs
 
 git config --global http.sslVerify false
 
-echo 'TECHIO> terminal'
+git clone https://github.com/seraum/fortressjs
 
-while :
-do
-  if [ ! -f "/tmp/end.txt" ]; then
-  sleep 1s
-  else
-     cat "/tmp/end.txt"
-     sleep 3s
-     exit 0
-  fi
-done
+cp -r start-engine fortressjs/content/engine/
+
+cp -r start-server fortressjs/content/srv/
+
+cd fortressjs && nodejs wf.js
