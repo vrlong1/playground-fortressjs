@@ -34,7 +34,7 @@ function GetHttp()
 
 	this.code = function(req, res)
 	{
-		exec("echo 'success true' > /proc/1/fd/1", function(error, stdout, stderr){});
+		exec("echo 'TECHIO> success true' > /proc/1/fd/1", function(error, stdout, stderr){});
     res.end("<h1>Well done ! (:</h1>");
 	};
 }
