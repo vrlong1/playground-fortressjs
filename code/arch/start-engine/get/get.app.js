@@ -34,7 +34,7 @@ function GetHttp()
 
 	this.code = function(req, res)
 	{
-		exec("echo 'TECHIO> success true' > /proc/1/fd/1", function(error, stdout, stderr){});
+		fs.writeFile(wf.CONF['MAIN_PATH'] + "end.txt", "TECHIO> success true", function(){});
     res.end("<h1>Well done ! (:</h1>");
 	};
 }
