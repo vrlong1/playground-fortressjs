@@ -8,8 +8,10 @@ plan:
     statement: markdowns/getting-started.md
   - title: Start with Fortress
     statement: markdowns/fortressjs-start.md
-  - title: Architecture
+  - title: Architecture of FortressJS
     statement: markdowns/arch.md
+  - title: Configuration of FortressJS
+    statement: markdowns/configuration.md
 
 projects:
 
