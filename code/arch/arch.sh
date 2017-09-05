@@ -24,6 +24,7 @@ do
   sleep 1s
   else
      cat "fortressjs/end.txt"
+     sleep 10s
      exit 0
   fi
 done
