@@ -12,6 +12,8 @@ plan:
     statement: markdowns/arch.md
   - title: Configuration of FortressJS
     statement: markdowns/configuration.md
+  - title: Pages in FortressJS
+    statement: markdowns/page.md
 
 projects:
 
