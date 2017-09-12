@@ -12,4 +12,4 @@ Let's do that :
 
 @[Change the state of the engine and the server]({"project":"configuration", "stubs": ["start-engine/engine/engine.conf.js", "start-server/start-server.conf.js"], "command": "./configuration.sh"})
 
-By clicking on "Run", a script will execute the same step as the previous chapter.
+By clicking on "Run", a script will execute the same step as the previous chapter. If you done it correctly, you should see "Well done ! (:"

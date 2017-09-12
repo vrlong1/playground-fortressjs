@@ -30,3 +30,7 @@ projects:
   configuration:
     root: code/configuration
     runner: debian:latest
+
+  page:
+    root: code/page
+    runner: debian:latest
