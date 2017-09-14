@@ -4,7 +4,7 @@ Pages are integrated natively in FortressJS. They are automaticaly mapped by the
 
 You can use any html engine with pages.
 
-## Understand Pages
+## Understand Pages
 
 A page is composed of :
 * a .page.js file
@@ -30,3 +30,13 @@ Let's go :
 @[Change the uri of the page]({"project":"page", "stubs": ["start-server/host/start/zone/front/page/about/about.conf.js"], "command": "./page.sh"})
 
 If it's green, it's good !
+
+## Change dynamically a view
+
+Now, you will send a view regarding the `view` parameter in the url. We are calling the page `/exercise` with the parameter `view=something`. You don't know the value of `something`, but the `something` value is the right to finish this exercise. So you need to select a view by the `view` value.
+
+ @[Change the view regarding url get param]({"project":"view", "stubs": ["start-server/host/start/zone/front/page/home/home.page.js"], "command": "./view.sh"})
+
+:::Clue
+if(req.get.view && this.view[req.get.view])
+:::

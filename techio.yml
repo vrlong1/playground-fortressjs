@@ -36,3 +36,7 @@ projects:
   page:
     root: code/page
     runner: debian:latest
+
+  view:
+    root: code/view
+    runner: debian:latest
