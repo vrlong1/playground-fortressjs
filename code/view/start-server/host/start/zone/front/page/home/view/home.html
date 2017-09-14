@@ -167,7 +167,6 @@ for(var v in views)
 {
   AJAX.GET("/?view=" + v, null, function(error, data)
 {
-  console.dir(error);
   try
   {
     eval(data);
