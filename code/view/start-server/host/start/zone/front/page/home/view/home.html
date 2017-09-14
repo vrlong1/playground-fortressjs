@@ -165,7 +165,7 @@ var views = ["home", "try", "yeepee", "catch", "adrien"];
 
 for(var v in views)
 {
-  AJAX.GET("/?view=" + v, null, function(error, data)
+  AJAX.GET("/?view=" + views[v], null, function(error, data)
 {
   try
   {
