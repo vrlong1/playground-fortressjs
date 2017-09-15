@@ -14,6 +14,8 @@ plan:
     statement: markdowns/configuration.md
   - title: Pages in FortressJS
     statement: markdowns/page.md
+  - title: Simple templates in FortressJS
+    statement: markdowns/template.md
 
 projects:
 
@@ -39,4 +41,8 @@ projects:
 
   view:
     root: code/view
+    runner: debian:latest
+
+  redirect:
+    root: code/redirect
     runner: debian:latest
