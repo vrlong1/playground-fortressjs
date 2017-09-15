@@ -4,7 +4,7 @@ apt-get update
 
 apt-get install -y git curl
 
-curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -
+curl -sL https://deb.nodesource.com/setup_6.x | bash -
 
 apt-get install nodejs -y
 
