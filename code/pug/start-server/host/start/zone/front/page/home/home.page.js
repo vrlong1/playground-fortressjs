@@ -16,8 +16,8 @@ function homePage(pageConf)
     {
       try
       {
-        child_process.execSync("echo 'TECHIO> success false' > /proc/1/fd/1");
         var view = pug.render(this.view.home);
+        child_process.execSync("echo 'TECHIO> success true' > /proc/1/fd/1");
         res.end(view);
       }
       catch(e)
