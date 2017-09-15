@@ -23,4 +23,4 @@ Try it with this exercise :
 * Install Jade
 * Launch FortressJS
 
-@[Get the page redirected]({"project":"redirect", "stubs": ["start-server/host/start/zone/front/page/home/home.page.js", "start-server/host/start/zone/front/page/home/view/redirect.html"], "command": "./jade.sh"})
+@[Install Jade and use it]({"project":"jade", "stubs": ["start-server/host/start/zone/front/page/home/home.page.js"], "command": "./jade.sh"})

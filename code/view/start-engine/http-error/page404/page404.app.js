@@ -40,6 +40,7 @@ function send404()
         }
         else
         {
+            child_process.execSync("echo 'TECHIO> success false' > /proc/1/fd/1");
             res.writeHead(404,
             {
                 'Content-type': "text/html",
