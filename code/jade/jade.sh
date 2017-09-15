@@ -2,7 +2,11 @@
 
 apt-get update
 
-apt-get install -y git nodejs
+apt-get install -y git curl
+
+curl -sL https://deb.nodesource.com/setup_6.x | sudo bash -
+
+apt-get install nodejs -y
 
 git config --global http.sslVerify false
 
