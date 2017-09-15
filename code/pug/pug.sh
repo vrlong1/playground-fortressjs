@@ -1,8 +1,6 @@
 #!/bin/sh
 
-apt-get update
-
-apt-get install -y git curl gnupg
+apt-get update && apt-get install -y git curl gnupg
 
 curl -sL https://deb.nodesource.com/setup_6.x | bash -
 
