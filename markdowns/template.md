@@ -6,6 +6,10 @@ For example, find a way to get this work :
 
 @[Get the page redirected]({"project":"redirect", "stubs": ["start-server/host/start/zone/front/page/home/home.page.js", "start-server/host/start/zone/front/page/home/view/redirect.html"], "command": "./redirect.sh"})
 
+:::Help
+Select the right view, and change the template var
+:::
+
 ## Using Pug, a template engine
 
 Pug is a NodeJS template engine. You can discover it here (Pug)[https://pugjs.org/api/getting-started.html].
@@ -24,3 +28,7 @@ Try it with this exercise :
 * Launch FortressJS
 
 @[Install Jade and use it]({"project":"pug", "stubs": ["start-server/host/start/zone/front/page/home/home.page.js"], "command": "./pug.sh"})
+
+:::Help
+install pug with npm in fortressjs folder, and do a "require" of pug in the page
+:::
