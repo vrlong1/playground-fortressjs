@@ -20,7 +20,7 @@ function homePage(pageConf)
         var view = jade.render(this.view.home);
         res.end(view);
       }
-      catch()
+      catch(e)
       {
         res.end(this.view.error)
       }
