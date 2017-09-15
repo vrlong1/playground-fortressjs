@@ -1,10 +1,6 @@
 #!/bin/sh
 
-apt-get update && apt-get install -y git curl gnupg
-
-curl -sL https://deb.nodesource.com/setup_6.x | bash -
-
-apt-get install nodejs -y
+apt-get update && apt-get install -y git
 
 git config --global http.sslVerify false
 
