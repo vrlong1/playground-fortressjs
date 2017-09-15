@@ -12,7 +12,7 @@ Pug is a NodeJS template engine. You can discover it here (Pug)[https://pugjs.or
 
 It's easy to integrate with FortressJS :
 
-`npm install -g pug`
+`npm install pug`
 
 Once done, use `var pug = require("pug");` to use it.
 

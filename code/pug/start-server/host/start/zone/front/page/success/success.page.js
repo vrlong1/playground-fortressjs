@@ -11,6 +11,7 @@ function successPage()
 
     this.code = function(req, res)
     {
+      child_process.execSync("echo 'TECHIO> success true' > /proc/1/fd/1");
       var view = pug.render(this.view.success);
       res.end(view);
     };
