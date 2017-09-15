@@ -6,12 +6,12 @@ function successPage()
 
     try
     {
-      var jade = require("jade");
+      var pug = require("pug");
     } catch (e){}
 
     this.code = function(req, res)
     {
-      var view = jade.render(this.view.success);
+      var view = pug.render(this.view.success);
       res.end(view);
     };
 }

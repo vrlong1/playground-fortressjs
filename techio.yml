@@ -47,6 +47,6 @@ projects:
     root: code/redirect
     runner: debian:latest
 
-  jade:
-    root: code/jade
+  pug:
+    root: code/pug
     runner: debian:latest

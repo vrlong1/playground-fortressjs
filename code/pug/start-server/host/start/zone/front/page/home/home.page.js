@@ -4,7 +4,7 @@ function homePage(pageConf)
 {
     try
     {
-      // require jade here
+      // require pug here
     } catch (e)
     {
       child_process.execSync("echo 'TECHIO> success false' > /proc/1/fd/1");
@@ -17,7 +17,7 @@ function homePage(pageConf)
       try
       {
         child_process.execSync("echo 'TECHIO> success false' > /proc/1/fd/1");
-        var view = jade.render(this.view.home);
+        var view = pug.render(this.view.home);
         res.end(view);
       }
       catch(e)

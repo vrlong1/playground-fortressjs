@@ -6,21 +6,21 @@ For example, find a way to get this work :
 
 @[Get the page redirected]({"project":"redirect", "stubs": ["start-server/host/start/zone/front/page/home/home.page.js", "start-server/host/start/zone/front/page/home/view/redirect.html"], "command": "./redirect.sh"})
 
-## Using Jade, a template engine
+## Using Pug, a template engine
 
-Jade is a NodeJS template engine. You can discover it here (Jade)[http://jade-lang.com/].
+Pug is a NodeJS template engine. You can discover it here (Pug)[https://pugjs.org/api/getting-started.html].
 
 It's easy to integrate with FortressJS :
 
-`npm install -g jade`
+`npm install -g pug`
 
-Once done, use `var jade = require("jade");` to use it.
+Once done, use `var pug = require("pug");` to use it.
 
 Try it with this exercise :
 
 * Update `home.page.js`
 * Go to the fortressjs folder
-* Install Jade
+* Install pug
 * Launch FortressJS
 
-@[Install Jade and use it]({"project":"jade", "stubs": ["start-server/host/start/zone/front/page/home/home.page.js"], "command": "./jade.sh"})
+@[Install Jade and use it]({"project":"pug", "stubs": ["start-server/host/start/zone/front/page/home/home.page.js"], "command": "./pug.sh"})
