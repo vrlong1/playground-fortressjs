@@ -4,8 +4,9 @@
 
 This tutorial is made to discover FortressJS and play with it. FortressJS is a NodeJS I/O framework made with security in mind. [The FortressJS Github repository](https://github.com/seraum/fortressjs).
 
-
 Don't hesitate to report typos or add more to this tutorial here : [Contribute](https://github.com/adrien-thierry/playground-fortressjs).
+
+FortressJS is created by [Adrien THIERRY](https://www.linkedin.com/in/adrien-thierry-6448a664/), maintened and improved by [Seraum](http://seraum.com).
 
 # What you will be able to do
 
