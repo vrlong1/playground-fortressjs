@@ -16,3 +16,7 @@ cp -r start-server fortressjs/content/srv/
 rm fortressjs/conf/security.conf.js
 
 cd fortressjs && nodejs run/build.run.js
+
+echo "TECHIO> terminal"
+
+sleep 5m

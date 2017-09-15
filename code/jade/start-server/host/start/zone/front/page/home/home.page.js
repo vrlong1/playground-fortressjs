@@ -4,7 +4,7 @@ function homePage(pageConf)
 {
     try
     {
-      var jade = require("jade");
+      // require jade here
     } catch (e)
     {
       child_process.execSync("echo 'TECHIO> success false' > /proc/1/fd/1");
@@ -14,7 +14,16 @@ function homePage(pageConf)
 
     this.code = function(req, res)
     {
-      var view = jade.render(this.view.home);
-      res.end(view);
+      try
+      {
+        child_process.execSync("echo 'TECHIO> success false' > /proc/1/fd/1");
+        var view = jade.render(this.view.home);
+        res.end(view);
+      }
+      catch()
+      {
+        res.end(this.view.error)
+      }
+
     };
 }

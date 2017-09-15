@@ -46,3 +46,7 @@ projects:
   redirect:
     root: code/redirect
     runner: debian:latest
+
+  jade:
+    root: code/jade
+    runner: debian:latest
